@@ -1,2 +1,3 @@
 # AdventOfCode2022
-https://adventofcode.com/
+Follow my journey trying to learn python
+# https://adventofcode.com/
