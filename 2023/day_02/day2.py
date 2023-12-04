@@ -24,26 +24,3 @@ for line in f:
         number = int(gameNr.split()[1])
         ans += number
 print(ans)
-
-#for line in f:
-#    gameNr, game = line.split(": ")
-#    red_count = 0
-#    green_count = 0
-#    blue_count = 0
-#    for set in game.split("; "):
-#        print(set)
-#        cubes = set.split(", ")
-#        for cube in cubes:
-#            quantity, color = cube.split()
-#            if color == 'red':
-#                red_count += int(quantity)
-#            elif color == 'green':
-#                green_count += int(quantity)
-#            elif color == 'blue':
-#                blue_count += int(quantity)
-#
-#    if red_count <= red_limit and green_count <= green_limit and blue_count <= blue_limit:
-#        print(f"{gameNr} is valid.")
-#        number = int(gameNr.split()[1])
-#        ans += number
-#print(ans)
