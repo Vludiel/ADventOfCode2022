@@ -3,9 +3,12 @@ f = open("input.txt", "r")
 def checkwin(correct, hand2check):
     wins = 0
     for i in correct:
-        for hadn in hand2check:
-            if i == hadn:
-                wins += 1
+        for hand in hand2check:
+            if i == hand:
+                if wins == 0:
+                    wins = 1
+                else:
+                    wins *= 2
     return wins
 
 ans = 0
